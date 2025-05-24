@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login-M", "Login-M", "{02EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentic", "Authentic\Authentic.csproj", "{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main-project", "..\..\..\..\..\..\source\best_projects\TECplace\Home\Home-m\Main-project\Main-project.csproj", "{1EE52D12-D5B1-18C3-5D39-69DA927E9113}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home-M", "Home-M", "{779D2C5D-EA1A-44F4-82CD-BC18C255A361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE52D12-D5B1-18C3-5D39-69DA927E9113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE52D12-D5B1-18C3-5D39-69DA927E9113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE52D12-D5B1-18C3-5D39-69DA927E9113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE52D12-D5B1-18C3-5D39-69DA927E9113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{97BEE42E-5BE0-450B-A848-03131C3C2910} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1EE52D12-D5B1-18C3-5D39-69DA927E9113} = {779D2C5D-EA1A-44F4-82CD-BC18C255A361}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E6FC60E-FA3F-47F8-907F-DF903D8E72B1}

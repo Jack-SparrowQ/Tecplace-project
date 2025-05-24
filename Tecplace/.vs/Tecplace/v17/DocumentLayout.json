@@ -3,40 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8F5F41B-319E-48A4-8B24-2A3B4C1F836B}|MainApp\\MainApp.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\mainapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8F5F41B-319E-48A4-8B24-2A3B4C1F836B}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8F5F41B-319E-48A4-8B24-2A3B4C1F836B}|MainApp\\MainApp.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\mainapp\\mainapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D8F5F41B-319E-48A4-8B24-2A3B4C1F836B}|MainApp\\MainApp.csproj|solutionrelative:mainapp\\mainapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97BEE42E-5BE0-450B-A848-03131C3C2910}|Login-Module\\Login-Module.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\login-module\\login-module.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{97BEE42E-5BE0-450B-A848-03131C3C2910}|Login-Module\\Login-Module.csproj|solutionrelative:login-module\\login-module.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\authentic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\authentic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\project\\tecplace\\authentic\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80341F5A-DF20-4CC8-99A4-C98BD0F61C2F}|Authentic\\Authentic.csproj|solutionrelative:authentic\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EE52D12-D5B1-18C3-5D39-69DA927E9113}|..\\..\\..\\..\\..\\..\\source\\best_projects\\TECplace\\Home\\Home-m\\Main-project\\Main-project.csproj|c:\\users\\carlo\\source\\best_projects\\tecplace\\home\\home-m\\main-project\\feedform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +13,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MainApp\\Program.cs",
-              "RelativeDocumentMoniker": "MainApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MainApp\\Program.cs",
-              "RelativeToolTip": "MainApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Title": "FeedForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Carlo\\source\\best_projects\\TECplace\\Home\\Home-m\\Main-project\\FeedForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\source\\best_projects\\TECplace\\Home\\Home-m\\Main-project\\FeedForm.cs",
+              "ToolTip": "C:\\Users\\Carlo\\source\\best_projects\\TECplace\\Home\\Home-m\\Main-project\\FeedForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\best_projects\\TECplace\\Home\\Home-m\\Main-project\\FeedForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:25:19.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Authentic\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Authentic\\LoginForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:08:05.144Z",
+              "WhenOpened": "2025-05-24T22:53:58.519Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "Authentic\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.Designer.cs",
-              "RelativeToolTip": "Authentic\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAmwCsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:03:36.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainApp",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MainApp\\MainApp.csproj",
-              "RelativeDocumentMoniker": "MainApp\\MainApp.csproj",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MainApp\\MainApp.csproj",
-              "RelativeToolTip": "MainApp\\MainApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T21:57:12.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login-Module",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Login-Module\\Login-Module.csproj",
-              "RelativeDocumentMoniker": "Login-Module\\Login-Module.csproj",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Login-Module\\Login-Module.csproj",
-              "RelativeToolTip": "Login-Module\\Login-Module.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T21:09:54.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Authentic",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\Authentic.csproj",
-              "RelativeDocumentMoniker": "Authentic\\Authentic.csproj",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\Authentic.csproj",
-              "RelativeToolTip": "Authentic\\Authentic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T22:21:37.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "Authentic\\RegisterForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\RegisterForm.Designer.cs",
-              "RelativeToolTip": "Authentic\\RegisterForm.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwD8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:08:13.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "Authentic\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\RegisterForm.cs",
-              "RelativeToolTip": "Authentic\\RegisterForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:09:33.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Authentic\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\LoginForm.cs",
-              "RelativeToolTip": "Authentic\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T22:05:34.219Z",
-              "EditorCaption": ""
             }
           ]
         }
