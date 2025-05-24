@@ -1,3 +1,5 @@
+using Main_project;
+
 namespace Authentic
 {
     public partial class LoginForm : Form
@@ -20,7 +22,9 @@ namespace Authentic
             string password = textBox2.Text;
             if (username == "admin" && password == "admin")
             {
-                MessageBox.Show("Login Successful");
+                FeedForm f1 = new FeedForm();
+                this.Hide();
+                f1.Show();
             }
             else
             {
