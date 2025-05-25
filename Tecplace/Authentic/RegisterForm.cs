@@ -7,21 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CommonUtils.Interfaces;
 
 namespace Authentic
 {
     public partial class RegisterForm : Form
     {
-        public RegisterForm()
+        private INavegation nav;
+        public RegisterForm(INavegation nav)
         {
             InitializeComponent();
+            this.nav = nav;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LoginForm f1 = new LoginForm();
-            f1.ShowDialog();
+            nav.ShowLogin();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,9 +35,8 @@ namespace Authentic
             else
             {
                 MessageBox.Show("Registration Successful");
-                this.Close();
-                LoginForm f1 = new LoginForm();
-                f1.ShowDialog();
+                this.Hide();
+                nav.ShowLogin();
             }
         }
 

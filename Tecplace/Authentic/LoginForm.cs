@@ -1,17 +1,19 @@
+using CommonUtils.Interfaces;
 namespace Authentic
 {
     public partial class LoginForm : Form
     {
-        public LoginForm()
+        private INavegation nav;
+        public LoginForm(INavegation nav)
         {
             InitializeComponent();
+            this.nav = nav;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegisterForm f2 = new RegisterForm();
-            f2.ShowDialog();
+            nav.ShowRegister();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -20,6 +22,7 @@ namespace Authentic
             string password = textBox2.Text;
             if (username == "admin" && password == "admin")
             {
+                nav.ShowHome();
                 this.Hide();
             }
             else

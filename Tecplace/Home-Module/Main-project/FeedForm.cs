@@ -1,19 +1,20 @@
-using System;
-using System.Windows.Forms;
+
 using FeedModule;
-using Main_project.Properties;
 using PostModule;
+using CommonUtils.Interfaces;
 
 namespace Main_project
 {
     public partial class FeedForm : Form
     {
         private FeedService feedService = new FeedService();
+        private INavegation nav;
 
-        public FeedForm()
+        public FeedForm(INavegation nav)
         {
             InitializeComponent();
             CargarFeed();
+            this.nav = nav;
         }
 
 
@@ -53,7 +54,7 @@ namespace Main_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            nav.ShowMyProfile();
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)

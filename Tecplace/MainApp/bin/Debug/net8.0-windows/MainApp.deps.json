@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "MainApp/1.0.0": {
         "dependencies": {
-          "Login-Module": "1.0.0"
+          "Authentic": "1.0.0",
+          "CommonUtils": "1.0.0",
+          "Main-project": "1.0.0",
+          "MyProfile": "1.0.0"
         },
         "runtime": {
           "MainApp.dll": {}
@@ -47,10 +50,18 @@
       },
       "Authentic/1.0.0": {
         "dependencies": {
-          "Main-project": "1.0.0"
+          "CommonUtils": "1.0.0"
         },
         "runtime": {
           "Authentic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CommonUtils/1.0.0": {
+        "runtime": {
+          "CommonUtils.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -67,24 +78,25 @@
           }
         }
       },
-      "Login-Module/1.0.0": {
-        "dependencies": {
-          "Authentic": "1.0.0"
-        },
-        "runtime": {
-          "Login-Module.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Main-project/1.0.0": {
         "dependencies": {
+          "CommonUtils": "1.0.0",
           "FeedModule": "1.0.0",
           "PostModule": "1.0.0"
         },
         "runtime": {
           "Main-project.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MyProfile/1.0.0": {
+        "dependencies": {
+          "CommonUtils": "1.0.0"
+        },
+        "runtime": {
+          "MyProfile.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -128,17 +140,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CommonUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "FeedModule/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Login-Module/1.0.0": {
+    "Main-project/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Main-project/1.0.0": {
+    "MyProfile/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

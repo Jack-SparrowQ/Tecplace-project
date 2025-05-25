@@ -9,9 +9,11 @@ namespace CommonUtils.Interfaces
     public interface INavegation
     {
         void ShowHome();
-        void ShowMyUserProfile();
-        void ShowUserProfile();
+        void ShowMyProfile();
+        void ShowOtherProfile();
         //void ShowSettings();
         //void ShowPost();
+        void ShowLogin();
+        void ShowRegister();
     }
 }

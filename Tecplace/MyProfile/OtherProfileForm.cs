@@ -1,8 +1,8 @@
 namespace MyProfile
 {
-    public partial class OtherProfile : Form
+    public partial class OtherProfileForm : Form
     {
-        public OtherProfile()
+        public OtherProfileForm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace MyProfile
 {
-    partial class OtherProfile
+    partial class OtherProfileForm
     {
         /// <summary>
         ///  Required designer variable.

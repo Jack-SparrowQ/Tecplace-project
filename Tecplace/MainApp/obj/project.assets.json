@@ -53,7 +53,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Main-project": "1.0.0"
+          "CommonUtils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Authentic.dll": {}
@@ -64,6 +64,16 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "CommonUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CommonUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonUtils.dll": {}
+        }
       },
       "FeedModule/1.0.0": {
         "type": "project",
@@ -78,23 +88,11 @@
           "bin/placeholder/FeedModule.dll": {}
         }
       },
-      "Login-Module/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Authentic": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Login-Module.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Login-Module.dll": {}
-        }
-      },
       "Main-project/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommonUtils": "1.0.0",
           "FeedModule": "1.0.0",
           "PostModule": "1.0.0"
         },
@@ -103,6 +101,22 @@
         },
         "runtime": {
           "bin/placeholder/Main-project.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MyProfile/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommonUtils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyProfile.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyProfile.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -203,20 +217,25 @@
       "path": "../Authentic/Authentic.csproj",
       "msbuildProject": "../Authentic/Authentic.csproj"
     },
+    "CommonUtils/1.0.0": {
+      "type": "project",
+      "path": "../CommonUtils/CommonUtils.csproj",
+      "msbuildProject": "../CommonUtils/CommonUtils.csproj"
+    },
     "FeedModule/1.0.0": {
       "type": "project",
       "path": "../Home-Module/FeedModule/FeedModule.csproj",
       "msbuildProject": "../Home-Module/FeedModule/FeedModule.csproj"
     },
-    "Login-Module/1.0.0": {
-      "type": "project",
-      "path": "../Login-Module/Login-Module.csproj",
-      "msbuildProject": "../Login-Module/Login-Module.csproj"
-    },
     "Main-project/1.0.0": {
       "type": "project",
       "path": "../Home-Module/Main-project/Main-project.csproj",
       "msbuildProject": "../Home-Module/Main-project/Main-project.csproj"
+    },
+    "MyProfile/1.0.0": {
+      "type": "project",
+      "path": "../MyProfile/MyProfile.csproj",
+      "msbuildProject": "../MyProfile/MyProfile.csproj"
     },
     "PostModule/1.0.0": {
       "type": "project",
@@ -226,7 +245,10 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Login-Module >= 1.0.0"
+      "Authentic >= 1.0.0",
+      "CommonUtils >= 1.0.0",
+      "Main-project >= 1.0.0",
+      "MyProfile >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -262,8 +284,17 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Login-Module\\Login-Module.csproj": {
-              "projectPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Login-Module\\Login-Module.csproj"
+            "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\Authentic.csproj": {
+              "projectPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Authentic\\Authentic.csproj"
+            },
+            "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\CommonUtils\\CommonUtils.csproj": {
+              "projectPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\CommonUtils\\CommonUtils.csproj"
+            },
+            "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Home-Module\\Main-project\\Main-project.csproj": {
+              "projectPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\Home-Module\\Main-project\\Main-project.csproj"
+            },
+            "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MyProfile\\MyProfile.csproj": {
+              "projectPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\Project\\Tecplace\\MyProfile\\MyProfile.csproj"
             }
           }
         }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Interfaces-profiles.Properties {
+namespace Profiles_interfaces.Properties {
     using System;
     
     

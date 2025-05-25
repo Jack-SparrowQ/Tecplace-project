@@ -1,10 +1,13 @@
+using CommonUtils.Interfaces;
 namespace MyProfile
 {
-    public partial class MyProfile : Form
+    public partial class MyProfileForm : Form
     {
-        public MyProfile()
+        private INavegation nav;
+        public MyProfileForm(INavegation nav)
         {
             InitializeComponent();
+            this.nav = nav;
         }
 
         public void MyProfile_Load(object sender, EventArgs e)
@@ -14,5 +17,9 @@ namespace MyProfile
             button1.BringToFront();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            nav.ShowHome();
+        }
     }
 }

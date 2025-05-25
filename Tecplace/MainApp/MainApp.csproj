@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Login-Module\Login-Module.csproj" />
+    <ProjectReference Include="..\Authentic\Authentic.csproj" />
+    <ProjectReference Include="..\CommonUtils\CommonUtils.csproj" />
+    <ProjectReference Include="..\Home-Module\Main-project\Main-project.csproj" />
+    <ProjectReference Include="..\MyProfile\MyProfile.csproj" />
   </ItemGroup>
 
 </Project>

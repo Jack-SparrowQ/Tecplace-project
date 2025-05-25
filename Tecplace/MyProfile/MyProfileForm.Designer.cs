@@ -1,6 +1,6 @@
 ﻿namespace MyProfile
 {
-    partial class MyProfile
+    partial class MyProfileForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -101,6 +101,7 @@
             button1.TabIndex = 1;
             button1.Text = "Regresar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -224,13 +225,13 @@
             button_edittada.Text = "Editar informacion";
             button_edittada.UseVisualStyleBackColor = true;
             // 
-            // MyProfile
+            // MyProfileForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(995, 635);
             Controls.Add(tableLayoutPanel1);
-            Name = "MyProfile";
+            Name = "MyProfileForm";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
