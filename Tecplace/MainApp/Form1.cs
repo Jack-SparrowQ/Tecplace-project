@@ -14,6 +14,7 @@ namespace MainApp
         private OtherProfileForm otherProfileForm;
         private NewPostForm1 newPostForm;
         private PostForm1 postForm;
+        LoginForm loginForm;
         public Form1()
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace MainApp
             postForm = new PostForm1(this);
             newPostForm = new NewPostForm1(this);
 
-            LoginForm loginForm = new LoginForm(this);
+            loginForm = new LoginForm(this);
             loginForm.ShowDialog();
         }
 
