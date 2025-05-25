@@ -192,18 +192,18 @@
     },
     "FeedModule/1.0.0": {
       "type": "project",
-      "path": "../../../../../../../source/best_projects/TECplace/Home/Home-m/FeedModule/FeedModule.csproj",
-      "msbuildProject": "../../../../../../../source/best_projects/TECplace/Home/Home-m/FeedModule/FeedModule.csproj"
+      "path": "../Home-Module/FeedModule/FeedModule.csproj",
+      "msbuildProject": "../Home-Module/FeedModule/FeedModule.csproj"
     },
     "Main-project/1.0.0": {
       "type": "project",
-      "path": "../../../../../../../source/best_projects/TECplace/Home/Home-m/Main-project/Main-project.csproj",
-      "msbuildProject": "../../../../../../../source/best_projects/TECplace/Home/Home-m/Main-project/Main-project.csproj"
+      "path": "../Home-Module/Main-project/Main-project.csproj",
+      "msbuildProject": "../Home-Module/Main-project/Main-project.csproj"
     },
     "PostModule/1.0.0": {
       "type": "project",
-      "path": "../../../../../../../source/best_projects/TECplace/Home/Home-m/PostModule/PostModule.csproj",
-      "msbuildProject": "../../../../../../../source/best_projects/TECplace/Home/Home-m/PostModule/PostModule.csproj"
+      "path": "../Home-Module/PostModule/PostModule.csproj",
+      "msbuildProject": "../Home-Module/PostModule/PostModule.csproj"
     }
   },
   "projectFileDependencyGroups": {
