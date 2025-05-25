@@ -11,7 +11,9 @@
           "Authentic": "1.0.0",
           "CommonUtils": "1.0.0",
           "Main-project": "1.0.0",
-          "MyProfile": "1.0.0"
+          "MyProfile": "1.0.0",
+          "NewPostForm": "1.0.0",
+          "PostForm": "1.0.0"
         },
         "runtime": {
           "MainApp.dll": {}
@@ -102,6 +104,28 @@
           }
         }
       },
+      "NewPostForm/1.0.0": {
+        "dependencies": {
+          "CommonUtils": "1.0.0"
+        },
+        "runtime": {
+          "NewPostForm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PostForm/1.0.0": {
+        "dependencies": {
+          "CommonUtils": "1.0.0"
+        },
+        "runtime": {
+          "PostForm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PostModule/1.0.0": {
         "dependencies": {
           "System.Drawing.Common": "9.0.3"
@@ -156,6 +180,16 @@
       "sha512": ""
     },
     "MyProfile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewPostForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PostForm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

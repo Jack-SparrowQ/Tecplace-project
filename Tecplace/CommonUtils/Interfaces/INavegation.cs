@@ -12,8 +12,9 @@ namespace CommonUtils.Interfaces
         void ShowMyProfile();
         void ShowOtherProfile();
         //void ShowSettings();
-        //void ShowPost();
         void ShowLogin();
         void ShowRegister();
+        void ShowNewPostForm();
+        void ShowPostForm();
     }
 }

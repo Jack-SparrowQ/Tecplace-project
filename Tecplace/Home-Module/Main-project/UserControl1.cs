@@ -46,7 +46,7 @@ namespace Main_project
 
         private void ImgPost_Click(object sender, EventArgs e)
         {
-
+            nav.ShowPostForm();
         }
 
         private void description_Click(object sender, EventArgs e)

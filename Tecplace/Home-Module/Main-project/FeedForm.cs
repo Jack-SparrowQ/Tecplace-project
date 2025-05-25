@@ -16,7 +16,7 @@ namespace Main_project
             this.nav = nav;
             InitializeComponent();
             CargarFeed();
-            
+
         }
 
 
@@ -88,6 +88,11 @@ namespace Main_project
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            nav.ShowNewPostForm();
         }
     }
 }
