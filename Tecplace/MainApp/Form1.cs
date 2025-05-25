@@ -15,7 +15,7 @@ namespace MainApp
             InitializeComponent();
             feedForm = new FeedForm(this);
             myProfileForm = new MyProfileForm(this);
-            otherProfileForm = new OtherProfileForm();
+            otherProfileForm = new OtherProfileForm(this);
             LoginForm loginForm = new LoginForm(this);
             loginForm.ShowDialog();
         }
