@@ -20,3 +20,4 @@ C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Auth
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Authentic\obj\Debug\net8.0-windows\Authentic.csproj.Up2Date
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Authentic\bin\Debug\net8.0-windows\CommonUtils.dll
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Authentic\bin\Debug\net8.0-windows\CommonUtils.pdb
+C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Authentic\obj\Debug\net8.0-windows\Authentic.sourcelink.json

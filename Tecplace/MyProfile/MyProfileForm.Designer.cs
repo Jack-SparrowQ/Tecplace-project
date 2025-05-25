@@ -140,6 +140,7 @@
             button2.TabIndex = 0;
             button2.Text = "Nuevo post";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // flowLayoutPanel_posts
             // 
@@ -232,7 +233,8 @@
             ClientSize = new Size(995, 635);
             Controls.Add(tableLayoutPanel1);
             Name = "MyProfileForm";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Perfil";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             panel1.ResumeLayout(false);

@@ -9,12 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Authentic\Authentic.csproj" />
     <ProjectReference Include="..\CommonUtils\CommonUtils.csproj" />
-    <ProjectReference Include="..\Home-Module\Main-project\Main-project.csproj" />
-    <ProjectReference Include="..\MyProfile\MyProfile.csproj" />
-    <ProjectReference Include="..\NewPostForm\NewPostForm.csproj" />
-    <ProjectReference Include="..\PostForm\PostForm.csproj" />
   </ItemGroup>
 
 </Project>

@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            panel1 = new Panel();
-            button1 = new Button();
-            pictureBox1 = new PictureBox();
-            panel_postsSections = new Panel();
-            flowLayoutPanel_posts = new FlowLayoutPanel();
             flowLayoutPanel_userdata = new FlowLayoutPanel();
-            pictureBox2 = new PictureBox();
             groupBox_data = new GroupBox();
             groupBox_contact = new GroupBox();
             label_description = new Label();
             label1 = new Label();
             panel2 = new Panel();
             button_edittada = new Button();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            panel1 = new Panel();
+            pictureBox2 = new PictureBox();
             button_filter = new Button();
+            button1 = new Button();
+            pictureBox1 = new PictureBox();
+            panel_postsSections = new Panel();
+            flowLayoutPanel_posts = new FlowLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel_postsSections.SuspendLayout();
             flowLayoutPanel_userdata.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             groupBox_data.SuspendLayout();
             panel2.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel_postsSections.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -69,65 +69,6 @@
             tableLayoutPanel1.Size = new Size(1251, 744);
             tableLayoutPanel1.TabIndex = 0;
             // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel2.Controls.Add(panel_postsSections, 0, 1);
-            tableLayoutPanel2.Location = new Point(3, 3);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 2;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 28.6644955F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 71.3355F));
-            tableLayoutPanel2.Size = new Size(957, 735);
-            tableLayoutPanel2.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(button_filter);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(741, 204);
-            panel1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(13, 13);
-            button1.Name = "button1";
-            button1.Size = new Size(103, 35);
-            button1.TabIndex = 1;
-            button1.Text = "Regresar";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = SystemColors.ActiveCaption;
-            pictureBox1.Location = new Point(3, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(735, 220);
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
-            // panel_postsSections
-            // 
-            panel_postsSections.Controls.Add(flowLayoutPanel_posts);
-            panel_postsSections.Dock = DockStyle.Fill;
-            panel_postsSections.Location = new Point(3, 213);
-            panel_postsSections.Name = "panel_postsSections";
-            panel_postsSections.Size = new Size(951, 519);
-            panel_postsSections.TabIndex = 4;
-            // 
-            // flowLayoutPanel_posts
-            // 
-            flowLayoutPanel_posts.Location = new Point(3, 9);
-            flowLayoutPanel_posts.Name = "flowLayoutPanel_posts";
-            flowLayoutPanel_posts.Size = new Size(945, 498);
-            flowLayoutPanel_posts.TabIndex = 5;
-            // 
             // flowLayoutPanel_userdata
             // 
             flowLayoutPanel_userdata.Controls.Add(groupBox_data);
@@ -136,17 +77,6 @@
             flowLayoutPanel_userdata.Name = "flowLayoutPanel_userdata";
             flowLayoutPanel_userdata.Size = new Size(282, 671);
             flowLayoutPanel_userdata.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = SystemColors.ButtonShadow;
-            pictureBox2.Location = new Point(32, 54);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(151, 147);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 2;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // groupBox_data
             // 
@@ -205,6 +135,42 @@
             button_edittada.Text = "Editar informacion";
             button_edittada.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 1;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel2.Controls.Add(panel1, 0, 0);
+            tableLayoutPanel2.Controls.Add(panel_postsSections, 0, 1);
+            tableLayoutPanel2.Location = new Point(3, 3);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 2;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 28.6644955F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 71.3355F));
+            tableLayoutPanel2.Size = new Size(957, 735);
+            tableLayoutPanel2.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(button_filter);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(741, 204);
+            panel1.TabIndex = 3;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = SystemColors.ButtonShadow;
+            pictureBox2.Location = new Point(32, 54);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(151, 147);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
             // button_filter
             // 
             button_filter.Location = new Point(624, 118);
@@ -214,24 +180,62 @@
             button_filter.Text = "Filtrar por:";
             button_filter.UseVisualStyleBackColor = true;
             // 
-            // OtherProfile
+            // button1
+            // 
+            button1.Location = new Point(13, 13);
+            button1.Name = "button1";
+            button1.Size = new Size(103, 35);
+            button1.TabIndex = 1;
+            button1.Text = "Regresar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = SystemColors.ActiveCaption;
+            pictureBox1.Location = new Point(3, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(735, 220);
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // panel_postsSections
+            // 
+            panel_postsSections.Controls.Add(flowLayoutPanel_posts);
+            panel_postsSections.Dock = DockStyle.Fill;
+            panel_postsSections.Location = new Point(3, 213);
+            panel_postsSections.Name = "panel_postsSections";
+            panel_postsSections.Size = new Size(951, 519);
+            panel_postsSections.TabIndex = 4;
+            // 
+            // flowLayoutPanel_posts
+            // 
+            flowLayoutPanel_posts.Location = new Point(3, 9);
+            flowLayoutPanel_posts.Name = "flowLayoutPanel_posts";
+            flowLayoutPanel_posts.Size = new Size(945, 498);
+            flowLayoutPanel_posts.TabIndex = 5;
+            // 
+            // OtherProfileForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1263, 762);
             Controls.Add(tableLayoutPanel1);
-            Name = "OtherProfile";
-            Text = "Form1";
+            MaximizeBox = false;
+            Name = "OtherProfileForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Profile";
+            Load += OtherProfileForm_Load;
             tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel_postsSections.ResumeLayout(false);
             flowLayoutPanel_userdata.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             groupBox_data.ResumeLayout(false);
             groupBox_data.PerformLayout();
             panel2.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel_postsSections.ResumeLayout(false);
             ResumeLayout(false);
         }
 
