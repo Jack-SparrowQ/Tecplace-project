@@ -53,7 +53,7 @@ namespace Main_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
