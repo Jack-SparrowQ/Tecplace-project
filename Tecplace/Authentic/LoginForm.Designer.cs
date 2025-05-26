@@ -32,9 +32,9 @@
             button2 = new Button();
             label3 = new Label();
             button1 = new Button();
-            textBox2 = new TextBox();
+            textBox_password = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            textBox_username = new TextBox();
             label1 = new Label();
             label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -80,12 +80,12 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // textBox2
+            // textBox_password
             // 
-            textBox2.Location = new Point(287, 135);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(170, 27);
-            textBox2.TabIndex = 3;
+            textBox_password.Location = new Point(287, 135);
+            textBox_password.Name = "textBox_password";
+            textBox_password.Size = new Size(170, 27);
+            textBox_password.TabIndex = 3;
             // 
             // label2
             // 
@@ -96,12 +96,12 @@
             label2.TabIndex = 2;
             label2.Text = "Password";
             // 
-            // textBox1
+            // textBox_username
             // 
-            textBox1.Location = new Point(287, 71);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(176, 27);
-            textBox1.TabIndex = 1;
+            textBox_username.Location = new Point(287, 71);
+            textBox_username.Name = "textBox_username";
+            textBox_username.Size = new Size(176, 27);
+            textBox_username.TabIndex = 1;
             // 
             // label1
             // 
@@ -130,8 +130,8 @@
             Controls.Add(label4);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(textBox_password);
+            Controls.Add(textBox_username);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(button2);
@@ -154,9 +154,9 @@
         private Button button2;
         private Label label3;
         private Button button1;
-        private TextBox textBox2;
+        private TextBox textBox_password;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox textBox_username;
         private Label label1;
         private Label label4;
     }
