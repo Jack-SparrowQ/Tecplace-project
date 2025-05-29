@@ -1,10 +1,14 @@
+using CommonUtils.Interfaces;
+
 namespace MyProfile
 {
     public partial class OtherProfileForm : Form
     {
-        public OtherProfileForm()
+        private INavegation nav;
+        public OtherProfileForm(INavegation nav)
         {
             InitializeComponent();
+            this.nav = nav;
         }
 
         public void OtherProfile_Load(object sender, EventArgs e)
@@ -15,6 +19,22 @@ namespace MyProfile
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            nav.ShowHome();
+            this.Hide();
+        }
+
+        private void OtherProfileForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -1,3 +1,5 @@
+using Authentic;
+
 namespace MainApp
 {
     internal static class Program

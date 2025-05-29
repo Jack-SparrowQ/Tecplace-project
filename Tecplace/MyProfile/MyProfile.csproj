@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CommonUtils\CommonUtils.csproj" />
+    <ProjectReference Include="..\PostModel\PostModel.csproj" />
+    <ProjectReference Include="..\PostsService\PostsService.csproj" />
   </ItemGroup>
 
 </Project>

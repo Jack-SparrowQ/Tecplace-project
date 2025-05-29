@@ -92,6 +92,7 @@
             nameUser.Size = new Size(117, 41);
             nameUser.TabIndex = 0;
             nameUser.Text = "Naame";
+            nameUser.Click += nameUser_Click;
             // 
             // date
             // 
@@ -112,6 +113,7 @@
             pictureProfile.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureProfile.TabIndex = 0;
             pictureProfile.TabStop = false;
+            pictureProfile.Click += pictureProfile_Click;
             // 
             // ImgPost
             // 

@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
 using CommonUtils.Interfaces;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace Authentic
 {
@@ -26,18 +28,50 @@ namespace Authentic
             nav.ShowLogin();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
+
+            if (textBox_username.Text == "" || textBox_email.Text == "" || textBox_password.Text == "")
             {
                 MessageBox.Show("Please fill all the fields");
-            }
-            else
+            } else
             {
-                MessageBox.Show("Registration Successful");
-                this.Hide();
-                nav.ShowLogin();
+
+                var client = new HttpClient();
+
+                var json = @"{
+                ""username"": """ + textBox_username.Text + @""",
+                ""email"": """ + textBox_email.Text + @""",
+                ""password"": """ + textBox_password.Text + @"""
+            }"
+                ;
+
+                //tring json = System.Text.Json.JsonSerializer.Serialize(user);
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                try
+                {
+                    HttpResponseMessage response = await client.PostAsync("http://localhost:8080/register", content);
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    if (response.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Registration successful!");
+                        this.Hide();
+                        nav.ShowLogin();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Registration failed: " + responseBody);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("An error occurred: " + ex.Message);
+
+                }
             }
+
         }
 
         private void RegisterForm_Load(object sender, EventArgs e)

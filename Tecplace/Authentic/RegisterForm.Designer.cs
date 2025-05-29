@@ -32,11 +32,11 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             label4 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
+            textBox_username = new TextBox();
             label2 = new Label();
-            textBox2 = new TextBox();
+            textBox_email = new TextBox();
             label5 = new Label();
-            textBox3 = new TextBox();
+            textBox_password = new TextBox();
             button1 = new Button();
             button3 = new Button();
             pictureBox1 = new PictureBox();
@@ -67,11 +67,11 @@
             // 
             flowLayoutPanel1.Controls.Add(label4);
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Controls.Add(textBox1);
+            flowLayoutPanel1.Controls.Add(textBox_username);
             flowLayoutPanel1.Controls.Add(label2);
-            flowLayoutPanel1.Controls.Add(textBox2);
+            flowLayoutPanel1.Controls.Add(textBox_email);
             flowLayoutPanel1.Controls.Add(label5);
-            flowLayoutPanel1.Controls.Add(textBox3);
+            flowLayoutPanel1.Controls.Add(textBox_password);
             flowLayoutPanel1.Controls.Add(button1);
             flowLayoutPanel1.Controls.Add(button3);
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
@@ -99,28 +99,28 @@
             label1.TabIndex = 0;
             label1.Text = "Name";
             // 
-            // textBox1
+            // textBox_username
             // 
-            textBox1.Location = new Point(3, 54);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(176, 27);
-            textBox1.TabIndex = 1;
+            textBox_username.Location = new Point(3, 54);
+            textBox_username.Name = "textBox_username";
+            textBox_username.Size = new Size(176, 27);
+            textBox_username.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(3, 84);
             label2.Name = "label2";
-            label2.Size = new Size(109, 20);
+            label2.Size = new Size(46, 20);
             label2.TabIndex = 2;
-            label2.Text = "Number phone";
+            label2.Text = "Email";
             // 
-            // textBox2
+            // textBox_email
             // 
-            textBox2.Location = new Point(3, 107);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(170, 27);
-            textBox2.TabIndex = 3;
+            textBox_email.Location = new Point(3, 107);
+            textBox_email.Name = "textBox_email";
+            textBox_email.Size = new Size(170, 27);
+            textBox_email.TabIndex = 3;
             // 
             // label5
             // 
@@ -131,12 +131,13 @@
             label5.TabIndex = 9;
             label5.Text = "Crear password";
             // 
-            // textBox3
+            // textBox_password
             // 
-            textBox3.Location = new Point(3, 160);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(170, 27);
-            textBox3.TabIndex = 8;
+            textBox_password.Location = new Point(3, 160);
+            textBox_password.Name = "textBox_password";
+            textBox_password.PasswordChar = '*';
+            textBox_password.Size = new Size(170, 27);
+            textBox_password.TabIndex = 8;
             // 
             // button1
             // 
@@ -197,11 +198,11 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Label label4;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox textBox_username;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox textBox_email;
         private Label label5;
-        private TextBox textBox3;
+        private TextBox textBox_password;
         private Button button1;
         private Button button3;
         private PictureBox pictureBox1;

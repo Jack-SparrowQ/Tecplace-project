@@ -2,6 +2,7 @@
 using FeedModule;
 using PostModule;
 using CommonUtils.Interfaces;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Main_project
 {
@@ -12,9 +13,10 @@ namespace Main_project
 
         public FeedForm(INavegation nav)
         {
+            this.nav = nav;
             InitializeComponent();
             CargarFeed();
-            this.nav = nav;
+
         }
 
 
@@ -22,7 +24,6 @@ namespace Main_project
         {
             CentrarFlowLayoutPanel();
         }
-
 
         private void CargarFeed()
         {
@@ -42,7 +43,7 @@ namespace Main_project
 
             foreach (var post in posts)
             {
-                var postItem = new PostBox(post);
+                var postItem = new PostBox(post, nav);
                 flowLayoutPanel.Controls.Add(postItem);
             }
         }
@@ -87,6 +88,11 @@ namespace Main_project
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            nav.ShowNewPostForm();
         }
     }
 }
