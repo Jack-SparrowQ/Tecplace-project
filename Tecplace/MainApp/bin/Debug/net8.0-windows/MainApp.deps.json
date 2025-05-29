@@ -19,11 +19,11 @@
           "MainApp.dll": {}
         }
       },
-      "Microsoft.Win32.SystemEvents/9.0.3": {
+      "Microsoft.Win32.SystemEvents/9.0.5": {
         "runtime": {
           "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
+            "fileVersion": "9.0.525.21509"
           }
         },
         "runtimeTargets": {
@@ -31,22 +31,22 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
+            "fileVersion": "9.0.525.21509"
           }
         }
       },
-      "System.Drawing.Common/9.0.3": {
+      "System.Drawing.Common/9.0.5": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "9.0.3"
+          "Microsoft.Win32.SystemEvents": "9.0.5"
         },
         "runtime": {
           "lib/net8.0/System.Drawing.Common.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11202"
+            "fileVersion": "9.0.525.21601"
           },
           "lib/net8.0/System.Private.Windows.Core.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11202"
+            "fileVersion": "9.0.525.21601"
           }
         }
       },
@@ -95,7 +95,9 @@
       },
       "MyProfile/1.0.0": {
         "dependencies": {
-          "CommonUtils": "1.0.0"
+          "CommonUtils": "1.0.0",
+          "PostModel": "1.0.0",
+          "PostsService": "1.0.0"
         },
         "runtime": {
           "MyProfile.dll": {
@@ -126,12 +128,34 @@
           }
         }
       },
+      "PostModel/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "9.0.5"
+        },
+        "runtime": {
+          "PostModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PostModule/1.0.0": {
         "dependencies": {
-          "System.Drawing.Common": "9.0.3"
+          "System.Drawing.Common": "9.0.5"
         },
         "runtime": {
           "PostModule.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PostsService/1.0.0": {
+        "dependencies": {
+          "PostModel": "1.0.0"
+        },
+        "runtime": {
+          "PostsService.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -145,19 +169,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Win32.SystemEvents/9.0.3": {
+    "Microsoft.Win32.SystemEvents/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z0hIB2oeNqPOO0MYD0wkLpEe0LangoF3BSdMLLF5wft/rndYoXhLQvWni1OxymlWj+1adswAps2ZlrPmD9ZhBg==",
-      "path": "microsoft.win32.systemevents/9.0.3",
-      "hashPath": "microsoft.win32.systemevents.9.0.3.nupkg.sha512"
+      "sha512": "sha512-D4OYNpmvAsF9MkaY2W8Jue2XuNHDhygvwzo019hs+lP85KaVnOlXmqsjDKr1dHb1DPxDnOKpe6mAgJN7S6ttwg==",
+      "path": "microsoft.win32.systemevents/9.0.5",
+      "hashPath": "microsoft.win32.systemevents.9.0.5.nupkg.sha512"
     },
-    "System.Drawing.Common/9.0.3": {
+    "System.Drawing.Common/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yDxzWfZGvOtk8zk5apWXP/tmro1Nghn7/4bWS5np5CtwIfiVCC74qCc1qvIsnywvXKzVqIbKXRk09wts+xGfeg==",
-      "path": "system.drawing.common/9.0.3",
-      "hashPath": "system.drawing.common.9.0.3.nupkg.sha512"
+      "sha512": "sha512-T/6nqx0B7/uTe5JjBwrKZilLuwfhHLOVmNKlT/wr4A9Dna94mgTdz3lTfrdJ72QRx7IHCv/LzoJPmFSfK/N6WA==",
+      "path": "system.drawing.common/9.0.5",
+      "hashPath": "system.drawing.common.9.0.5.nupkg.sha512"
     },
     "Authentic/1.0.0": {
       "type": "project",
@@ -194,7 +218,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "PostModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PostModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PostsService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -52,3 +52,7 @@ C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\Main
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostForm.dll
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\NewPostForm.pdb
 C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostForm.pdb
+C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostModel.dll
+C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostsService.dll
+C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostModel.pdb
+C:\Users\Carlo\OneDrive\Documentos\Homeworks\TopicsAdvance\Project\Tecplace\MainApp\bin\Debug\net8.0-windows\PostsService.pdb

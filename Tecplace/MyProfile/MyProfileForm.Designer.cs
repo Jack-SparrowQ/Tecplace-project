@@ -144,10 +144,12 @@
             // 
             // flowLayoutPanel_posts
             // 
+            flowLayoutPanel_posts.AutoScroll = true;
             flowLayoutPanel_posts.Location = new Point(13, 3);
             flowLayoutPanel_posts.Name = "flowLayoutPanel_posts";
             flowLayoutPanel_posts.Size = new Size(725, 426);
             flowLayoutPanel_posts.TabIndex = 5;
+            flowLayoutPanel_posts.Paint += flowLayoutPanel_posts_Paint;
             // 
             // flowLayoutPanel_userdata
             // 
@@ -165,7 +167,7 @@
             pictureProfile.Location = new Point(3, 3);
             pictureProfile.Name = "pictureProfile";
             pictureProfile.Size = new Size(219, 219);
-            pictureProfile.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureProfile.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureProfile.TabIndex = 2;
             pictureProfile.TabStop = false;
             // 
